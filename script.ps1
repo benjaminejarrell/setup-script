@@ -4,4 +4,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 choco install terraform-docs
 choco install act-cli
+choco install git
 
+git config --global branch.autoSetupMerge always
+git config --global push.autoSetupRemote true
